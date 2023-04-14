@@ -40,8 +40,7 @@ describe("task_01", () => {
       },
     ];
 
-  test("the solution is true", () => {});
-  test.each(data)(`the solution is true`, ({ intervals, expected }) => {
+  test.each(data)(`$#. the solution is true`, ({ intervals, expected }) => {
     expect(sumIntervals(intervals)).toBe(expected);
   });
 });
