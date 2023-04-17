@@ -43,6 +43,5 @@ export const kidsWithCandies = function (
   extraCandies: number
 ) {
   const maxValue = Math.max(...candies);
-  console.log(maxValue);
   return candies.map((i) => i + extraCandies >= maxValue);
 };
