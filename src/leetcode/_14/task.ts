@@ -28,8 +28,8 @@ export const longestCommonPrefix = function (strs: Array<string>) {
   const sortedArr = strs.sort();
 
   for (let i = 0; i < sortedArr[0].length; i++) {
-    if (sortedArr.at(0)?.[i] !== sortedArr.at(-1)?.[i]) {
-      return sortedArr.at(0)?.slice(0, i);
+    if (sortedArr[0][i] !== sortedArr.at(-1)![i]) {
+      return sortedArr[0].slice(0, i);
     }
   }
   return sortedArr.at(0);
