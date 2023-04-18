@@ -32,5 +32,5 @@ export const longestCommonPrefix = function (strs: Array<string>) {
       return sortedArr[0].slice(0, i);
     }
   }
-  return sortedArr.at(0);
+  return sortedArr[0];
 };
