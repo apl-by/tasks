@@ -1,6 +1,6 @@
 import { twoSum } from "./task";
 
-describe("task_01", () => {
+describe("leetcode_task_1", () => {
   const data: Array<{
     nums: Array<number>;
     target: number;

@@ -1,6 +1,6 @@
 import { romanToInt } from "./task";
 
-describe("task_01", () => {
+describe("leetcode_task_13", () => {
   const data: Array<{ string: string; expected: number }> = [
     { string: "III", expected: 3 },
     { string: "LVIII", expected: 58 },

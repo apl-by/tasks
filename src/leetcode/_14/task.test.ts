@@ -1,6 +1,6 @@
 import { longestCommonPrefix } from "./task";
 
-describe("task_01", () => {
+describe("leetcode_task_14", () => {
   const data: Array<{
     strs: Array<string>;
     expected: string;

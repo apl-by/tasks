@@ -1,6 +1,6 @@
 import { sumIntervals } from "./task";
 
-describe("task_01", () => {
+describe("codewars_kyu_4_task_1", () => {
   const data: Array<{ intervals: Array<[number, number]>; expected: number }> =
     [
       { intervals: [[1, 5]], expected: 4 },

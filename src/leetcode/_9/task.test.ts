@@ -1,6 +1,6 @@
 import { isPalindrome, isPalindromeWithToString } from "./task";
 
-describe("task_01", () => {
+describe("leetcode_task_9", () => {
   const data: Array<{
     num: number;
     expected: boolean;

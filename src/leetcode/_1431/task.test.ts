@@ -1,6 +1,6 @@
 import { kidsWithCandies } from "./task";
 
-describe("task_01", () => {
+describe("leetcode_task_1431", () => {
   const data: Array<{
     candies: Array<number>;
     extraCandies: number;

@@ -1,6 +1,6 @@
 import { humanReadable } from "./task";
 
-describe("task_01", () => {
+describe("codewars_kyu_5_task_1", () => {
   test("the solution is true", () => {
     expect(humanReadable(0)).toBe("00:00:00");
     expect(humanReadable(59)).toBe("00:00:59");

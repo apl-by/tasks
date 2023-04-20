@@ -1,6 +1,6 @@
 import { pigIt } from "./task";
 
-describe("task_01", () => {
+describe("codewars_kyu_5_task_2", () => {
   test("test_1: the solution is true", () => {
     expect(pigIt("Pig latin is cool")).toBe("igPay atinlay siay oolcay");
   });

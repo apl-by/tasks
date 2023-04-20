@@ -1,6 +1,6 @@
 import { order } from "./task";
 
-describe("task_02", () => {
+describe("codewars_kyu_6_task_2", () => {
   test("the solution is true", () => {
     expect(order("is2 Thi1s T4est 3a")).toBe("Thi1s is2 3a T4est");
     expect(order("4of Fo1r pe6ople g3ood th5e the2")).toBe(
